@@ -44,4 +44,3 @@ sudo dnf install wget -y
              sudo firewall-cmd --zone=public --permanent --add-port 80/tcp
              sudo firewall-cmd --zone=public --permanent --add-port 443/tcp
              sudo firewall-cmd --reload
-     ;;
