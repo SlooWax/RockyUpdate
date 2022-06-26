@@ -18,7 +18,7 @@ sudo dnf install wget -y
              rm -f jdk-17_linux-x64_bin.rpm -y
 
              #Install EPEL, правда нахуя?
-             sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+             sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
              
              #Установочка ненужной хуеты для статистики/мониторинга
              sudo dnf install epel-release -y 
