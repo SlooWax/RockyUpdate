@@ -28,6 +28,9 @@ sudo dnf install wget -y
              sudo dnf install stress -y 
              sudo dnf install tar -y
              sudo dnf install neofetch -y
+             sudo dnf install firewalld
+             sudo systemctl enable firewalld
+             sudo systemctl start firewalld
              #Update System again
              sudo dnf update -y
              sudo dnf upgrade -y
